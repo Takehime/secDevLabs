@@ -43,7 +43,7 @@ test: get-deps lint security-check
 lint:
 	$(GOLINT) $(shell $(GO) list ./...)
 
-## Builds Go project to the executable file huskyci
+## Builds Go project to the executable file
 build:
 	$(GO) build -o "$(A1BIN)"
 

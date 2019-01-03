@@ -58,7 +58,7 @@ func checkAPIrequirements() error {
 
 func loadViper() error {
 	viper.SetConfigName("config")
-	viper.AddConfigPath(".")
+	viper.AddConfigPath("./app/")
 	err := viper.ReadInConfig()
 	return err
 }

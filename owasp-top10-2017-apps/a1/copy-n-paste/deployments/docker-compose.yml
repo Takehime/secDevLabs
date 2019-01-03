@@ -20,6 +20,14 @@ services:
     #     networks:
     #         - a1net
 
+    # app:
+    #     container_name: copynpaste
+    #     build:
+    #     context: ../
+    #     dockerfile: deployments/Dockerfile
+    #     # ports:
+    #     # - 10080:80
+
     mysqldb:
         image: mysql:5.7
         volumes:
